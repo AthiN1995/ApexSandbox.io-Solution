@@ -3,10 +3,10 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     Integer y=b+c;
     Integer z=a+c;
     if(x==c){
-        retrun c;
+        return c;
     } else
     if(y==a){
-        retrun a;
+        return a;
     } else
     if(z==b){
         return b;
