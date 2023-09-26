@@ -1,0 +1,14 @@
+public String whichTwo(Integer a, Integer b, Integer c) {
+    Integer x=a+b;
+    Integer y=b+c;
+    Integer z=a+c;
+    if(x==c){
+        retrun c;
+    } else
+    if(y==a){
+        retrun a;
+    } else
+    if(z==b){
+        return b;
+    }
+}
