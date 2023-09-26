@@ -1,6 +1,7 @@
 public String evenOrOdd(Integer num) {
     Integer rem=math.mod(num,2);
+    string text='odd';
     if(rem==0){
-        return 'even';
-    } else return 'false';
+        text='even';
+    } 
 }
