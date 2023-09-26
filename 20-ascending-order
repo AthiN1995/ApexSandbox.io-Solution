@@ -4,7 +4,7 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
         if(c>=b){
             x=true;
         }
-    }else {
+    } else {
         x=false;
     }
     return x;
