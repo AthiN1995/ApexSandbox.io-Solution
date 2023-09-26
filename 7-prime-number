@@ -3,7 +3,7 @@ public Boolean isPrime(Integer num) {
     for(integer i=2;i<(num/2);i++)
     {
         Integer rem=math.mod(num,2);
-        if(res==0){
+        if(rem==0){
             res=true;
             break;
         }
