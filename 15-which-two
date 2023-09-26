@@ -4,11 +4,11 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     Integer z=a+c;
     String s;
     if(x==c){
-        s=c;
+        s='c';
     } else if(y==a){
-        s=a;
+        s='a';
     } else if(z==b){
-        s=b;
+        s='b';
     }
     return s;
 }
