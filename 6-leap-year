@@ -7,8 +7,10 @@ public Boolean isLeapYear(Integer year) {
         if((y==0)&&(z==0)){
             res=true;
         }
-    } else if((x==0)&&(y!=0)){
-        res=true;
+    } else if(x==0){
+        if(y!=0){
+            res=true;
+        }
     }
     return res;
 }
