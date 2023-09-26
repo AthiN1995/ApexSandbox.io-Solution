@@ -8,7 +8,7 @@ public Boolean isLeapYear(Integer year) {
             res=true;
         }
     } else if((x==0)&&(y!=0)){
-        res=false;
+        res=true;
     }
     return res;
 }
