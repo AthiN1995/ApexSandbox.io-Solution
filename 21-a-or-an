@@ -1,0 +1,20 @@
+public String aOrAn(String word) {
+    if(word.startswith('a')){
+        string text = 'an '+word;
+    }
+    else if(word.startswith('e')){
+        string text = 'an '+word;
+    } 
+    else if(word.startswith('i')){
+        string text = 'an '+word;
+    }
+    else if(word.startswith('o')){
+        string text = 'an '+word;
+    }
+    else if(word.startswith('u')){
+        string text = 'an '+word;
+    }
+    else {
+        string text = 'a '+word;
+    }
+}
