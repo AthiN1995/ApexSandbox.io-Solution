@@ -9,7 +9,7 @@ public Boolean isPrime(Integer num) {
             
         }
     }
-    if(j>2){
+    if(j==2){
         res=true;
     }
     return res;
