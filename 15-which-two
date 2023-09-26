@@ -2,7 +2,7 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     Integer x=a+b;
     Integer y=b+c;
     Integer z=a+c;
-    Integer s;
+    String s;
     if(x==c){
         s=c;
     } else if(y==a){
