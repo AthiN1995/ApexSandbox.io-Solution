@@ -5,13 +5,13 @@ public Boolean companionPlants(String plant1, String plant2) {
     String o='onions';
     String ca='carrots';
     String t='tomatoes';
-    if(plant1=l && plant2=c){
+    if(plant1==l && plant2==c){
         res=true;
-    } else if(plant1=l && plant2=o){
+    } else if(plant1==l && plant2==o){
         res=true;
-    } else if(plant1=o && plant2=ca){
+    } else if(plant1==o && plant2==ca){
         res=true;
-    } else if(plant1=o && plant2=t){
+    } else if(plant1==o && plant2==t){
         res=true;
     }
     return res;
