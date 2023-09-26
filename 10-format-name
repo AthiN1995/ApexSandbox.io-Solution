@@ -5,5 +5,5 @@ public String formatName(String firstName, String lastName) {
     }else if(lastName==null){
         text='\''+ firstName + '\'';
     }else text='\''+ lastName + ','+' '+firstName+'\'';
-
+    return text;
 }
