@@ -2,13 +2,13 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     Integer x=a+b;
     Integer y=b+c;
     Integer z=a+c;
+    Integer s;
     if(x==c){
-        return c;
-    } else
-    if(y==a){
-        return a;
-    } else
-    if(z==b){
-        return b;
+        s=c;
+    } else if(y==a){
+        s=a;
+    } else if(z==b){
+        s=b;
     }
+    return s;
 }
