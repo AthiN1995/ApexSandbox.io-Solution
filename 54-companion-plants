@@ -1,0 +1,18 @@
+public Boolean companionPlants(String plant1, String plant2) {
+    Boolean res=false;
+    String l='lettuce';
+    String c='cucumbers';
+    String o='onions';
+    String c='carrots';
+    String t='tomatoes';
+    if(plant1=l && plant2=c){
+        res=true;
+    } else if(plant1=l && plant2=o){
+        res=true;
+    } else if(plant1=o && plant2=c){
+        res=true;
+    } else if(plant1=o && plant2=t){
+        res=true;
+    }
+    return res;
+}
