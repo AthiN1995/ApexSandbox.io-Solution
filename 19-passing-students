@@ -1,5 +1,5 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-    Boolean b;
+    Boolean b=false;
     if(passedExam==true){
         if(passedAssignments==true){
              b=true;
@@ -12,8 +12,6 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
         if(passedAssignments==true){
              b=true;
         } 
-    } else if(b==null){
-        b=false;
-    }
+    } 
     return b;
 }
