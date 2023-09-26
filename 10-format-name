@@ -1,9 +1,9 @@
 public String formatName(String firstName, String lastName) {
     String text;
     if(firstName==null){
-        text='\''+ lastName + '\'';
+        text=lastName;
     }else if(lastName==null){
-        text='\''+ firstName + '\'';
-    }else text='\''+ lastName + ','+' '+firstName+'\'';
+        text=firstName;
+    }else text=lastName + ','+' '+firstName;
     return text;
 }
