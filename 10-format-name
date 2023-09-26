@@ -5,7 +5,7 @@ public String formatName(String firstName, String lastName) {
     }else if(String.IsBlank(lastName)){
         text = firstName;
     }else if((String.IsBlank(firstName))&&(String.IsBlank(lastName))){
-        text ='';
+        text ='null';
     }else text = lastName + ','+' '+ firstName;
     return text;
 }
