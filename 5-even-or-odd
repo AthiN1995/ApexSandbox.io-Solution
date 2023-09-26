@@ -4,4 +4,5 @@ public String evenOrOdd(Integer num) {
     if(rem==0){
         text='even';
     } 
+    return text;
 }
