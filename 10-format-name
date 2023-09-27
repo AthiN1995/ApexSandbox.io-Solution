@@ -6,6 +6,6 @@ public String formatName(String firstName, String lastName) {
         text = firstName;
     }else if((String.IsBlank(firstName))&&(String.IsBlank(lastName))){
         text ='null';
-    }else text = lastName + ','+' '+ firstName;
+    }else text = lastName + ','+ firstName;
     return text;
 }
